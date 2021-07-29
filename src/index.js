@@ -5,7 +5,7 @@ function expressionCalculator(expr) {
     for(let i = 0; i < arr.length; i++) {
         if(arr[i] == '0' && arr[i-2] == '/') {
             throw Error("TypeError: Division by zero.");
-        }пше
+        }
 
         if(arr[i] == '(') {
             leftParenthesis += 1;
